@@ -1,0 +1,36 @@
+#Q1 (3 pts) uncomment the next line and run the program:
+
+print('Hi all. I am your first homework')
+
+#Q2 (3 pts) Uncomment the next line the next line of code and debug:
+
+print("I'll be learning python this semester!")
+#or
+print(I\'ll be learning pythonthis semester!")
+
+#Debug was removing single quotation and replacing with double quotes.
+
+# Q3 (4pts) Modify the code below to ask the user to input the first and last name in the variables below
+#Use the input() function to ask the user for THEIR NAME
+
+first_name=input("Enter your frist name here:")
+last_name=input("Enter your last name here:")
+print(first_name,'\n',last_name)  
+
+# Q4  Vlad is buying a piece of ham in the store. The price and weight of the ham 
+
+#price_per_pound=1.99 # $ per pound
+#weight=2.35  # lb
+
+# (3 pts) Compute the total cost of the ham. Use the variables defined above.
+print("This will calculate the cost of the Ham")
+Price_Per_Pound=1.99
+Weight=float(input("input how much weight in Lbs:"))
+total=(Price_Per_Pound*Weight)
+print('your total is:',format(total,'.2f'))
+
+
+# (4 pts)  Print the cost computed above. Make sure to format your cost to 2 
+
+
+
