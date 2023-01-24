@@ -1,0 +1,16 @@
+print("Welcome to the Fartenheit to Celcior Converter")
+far=float(input("Enter Fartenheit:"))
+cel=(far-32)*5/9
+print('Celcius:',format(cel,'.1f'))
+
+#This particular set of code works with problem solving, the question was asked to convert Farenheight to Celcius. The variable was named fartenheit purly for/n
+morale reasons#
+
+#Notes#
+
+x=1234.5678
+#print 1234.6
+round(x, 1) #Round X to the first number
+format(x, '.2f') #this means that .2 digits after the decimal point. 
+format(x,'.1f') #this means that .1 digits after the deciam point.
+format(x, ',.1f') #this makes the number 1,234.6 (every 3 digits are seperated by a comma)
